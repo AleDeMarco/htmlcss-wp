@@ -25,10 +25,13 @@ main{
   margin-top: 10px;
 }
 
-.col{
-  width: calc(25% - 40px);
+h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-shadow: 1px 1px grey;
 }
-
 
 .col.float-right{
   height: 990px;
@@ -36,7 +39,9 @@ main{
 
 .center{
   width: 50%;
-  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
 }
 
 footer{
@@ -105,13 +110,14 @@ footer{
 }
 
 .col{
+  width: calc(25% - 40px);
   background-color: white;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .title{
   width: 100%;
-  margin: 0 5px;
 }
 
 .ico{
@@ -126,22 +132,19 @@ footer{
   font-size: 30px;
   padding-top: 10px;
   float: left;
+  font-style: bold;
 }
 
-/* DA ELIMINARE */
 .box{
   width: 100%;
-  height: 85%;
+  line-height: 30px;
   font-size: 20px;
-  text-align: center;
-  overflow: hidden;
-  background-color: lightgreen;
 }
 
 .themes li{
   text-decoration: none;
   list-style: none;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .themes li a{
