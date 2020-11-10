@@ -41,9 +41,10 @@ h1{
 }
 
 footer{
-  height: 100px;
   text-align: center;
-  background-color: lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 /* CLASS */
@@ -186,17 +187,21 @@ footer{
 
 .copy{
   width: 100%;
-  height: 40px;
+  height: 25px;
   font-size: 20px;
-  text-align: center;
-  background-color: grey;
+  color: lightgrey;
+  font-style: italic;
 }
 
 .social{
   width: calc(99% / 3);
-  height: 60px;
+  height: 100px;
   display: inline-block;
-  font-size: 60px;
-  text-align: center;
-  background-color: grey;
+  line-height: 100px;
+  font-size: 40px;
+  color: lightgrey;
+}
+
+.social:hover{
+  color: green;
 }
